@@ -1,0 +1,3 @@
+green --> #028074
+blue --> #0479D6
+ice blue --> #63B5F6

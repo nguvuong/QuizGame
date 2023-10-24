@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.nguvuong.quizgame"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.nguvuong.quizgame"
@@ -15,6 +15,11 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+//    use android view binding
+    buildFeatures{
+        viewBinding = true
     }
 
     buildTypes {
