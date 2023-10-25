@@ -13,10 +13,15 @@
         android:theme="@style/Theme.QuizGame"
         tools:targetApi="31">
         <activity
+            android:name=".SignupActivity"
+            android:exported="false"
+            android:theme="@style/SignupTheme"
+            android:parentActivityName=".LoginActivity"/>
+
+        <activity
             android:name=".LoginActivity"
             android:exported="false"
-            android:theme="@style/AppThemeSplash"
-            />
+            android:theme="@style/Base.Theme.QuizGame" />
         <activity
             android:name=".WelcomeActivity"
             android:exported="true"
@@ -29,7 +34,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
