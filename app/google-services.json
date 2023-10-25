@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "659617354",
+    "project_id": "quizgame-ea186",
+    "storage_bucket": "quizgame-ea186.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659617354:android:4d91f6fe49fdbca26f98b3",
+        "android_client_info": {
+          "package_name": "com.nguvuong.quizgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH6F4SpYMWMnJ4yRrowE-4FFHQX4vrQPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
